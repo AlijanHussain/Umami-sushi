@@ -2,7 +2,22 @@ body {
     background-color: #232C4A;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
 .logo {
     width: 10vw;
     height: auto;
 }
+
+nav>ul>a {
+     color: white;
+    text-decoration: none;
+    border: 2px solid #FF6A3D;
+    padding: 10px 60px;
+    margin-left: 20px;
+}
+
