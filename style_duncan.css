@@ -1,11 +1,13 @@
 body {
     background-color: #232C4A;
+    
 }
 
 header{
     display: flex;
     align-items: center;
     padding: 20px;
+    font-family: Arial Black;
 }
 
 .logo{
