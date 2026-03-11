@@ -94,8 +94,8 @@
     }
 
     .dag{
-        background-color: #FF6A3D;
-        color: #232C4A;
+        border: 2px solid #FF6A3D;
+        color: #ffffff;
         border: none;
         padding: 10px 20px;
         font-size: 16px;
@@ -103,9 +103,9 @@
     }
 
     .dagen{
-        background-color: #FF6A3D;
-        color: #232C4A;
-        border: none;
+
+        color: #ffffff;
+        border: 2px solid #FF6A3D;
         padding: 10px 20px;
         font-size: 16px;
         width: 25%;
