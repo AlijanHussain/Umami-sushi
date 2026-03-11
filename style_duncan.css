@@ -118,18 +118,23 @@
         color: #BFC1C5;
         background-color: #FF6A3D;
         font-family: Arial Black;
+        width: 30vw;
+        height: 6vh;
+
     }
 
     .telefoon{
         color: #BFC1C5;
         background-color: #FF6A3D;
         font-family: Arial Black;
+        width: 30vw;
+        height: 6vh;
     }
 
     .algemeen{
         display: flex;
-        align-items: space-between;
         align-items: center;
+        justify-content: space-around;
     }
 
 }
