@@ -40,7 +40,9 @@
         color: #f8f4f4;
         font-family: arial black;
         border: 2px solid #FF6A3D;
-        display: inline-block;
+        display:flex
+        inline-block
+        
     
     }
 
@@ -50,6 +52,15 @@
         background-color: #FF6A3D;
         margin: 10px;
         color: #FF6A3D;
+    }
+
+    .MakiRolls {
+        color: #f8f4f4;
+        font-family: arial black;
+        border: 2px solid #FF6A3D;
+        display: flex
+        inline-block
+        
     }
 
 
