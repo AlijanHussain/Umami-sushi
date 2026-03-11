@@ -100,9 +100,7 @@
 
     .openingstijden{
         display: grid;
-        grid-template-columns: 1fr 1fr ;
-        
-
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .openingstijden>h3{
@@ -116,8 +114,7 @@
 
     .opening{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        
+        grid-template-columns: 1fr 1fr 1fr;  
     }
 
     .opening>h3{
@@ -128,7 +125,6 @@
         width: 15vw;
         font-family: Arial Black;     
     }
-
 
 
 
@@ -166,6 +162,16 @@
         background-color: #FF6A3D;
         margin: 1px;
         color: #FF6A3D;
+    }
+
+    /* dit is voor de foto's van de sushi's op de landding pagina */
+
+    .salmon{
+        width: 70vw;
+        height: 39vh;
+        margin-top: 10px;
+        margin-left: 200px;
+        
     }
 
 }
