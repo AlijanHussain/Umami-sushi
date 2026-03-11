@@ -96,6 +96,8 @@
         color: #FF6A3D;
     }
 
+      /* dit is voor de dagen dat we open zijn en de tijden dat we open zijn op de landding pagina */
+
     .dag{
         border: 2px solid #FF6A3D;
         color: #ffffff;
@@ -113,6 +115,8 @@
         width: 25%;
         font-family: Arial Black;
     }
+
+    /* dit is voor de reserveer en telefoon knop op de landding pagina */
 
     .reserveer{
         color: #BFC1C5;
