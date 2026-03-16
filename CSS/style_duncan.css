@@ -2,11 +2,13 @@ nav{
     display: none;
 }
 
+body {
+    background-color: #232C4A;   
+}
+
 
 @media (min-width: 576px)  and (max-width: 991px) {
-    body {
-        background-color: #327535;   
-    }
+
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -30,9 +32,7 @@ nav{
         display: block;
     }
 
-    body {
-        background-color: #232C4A;   
-    }
+
 
     header{
         display: flex;
@@ -236,12 +236,6 @@ nav{
 
     }
 
-    .contact_footer2{
-        font-family: Arial Black;
-        color: #BFC1C5;
-
-    }
-
     .contact_footer{
         display: flex;
         justify-content: space-between;
@@ -250,17 +244,6 @@ nav{
         margin-right: 200px;
 
     }
-
-
-
-    
-
-
-
-    
-
-
-
 
 
 }
