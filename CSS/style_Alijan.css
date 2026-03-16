@@ -67,8 +67,26 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;  
         width: 60%; 
         margin: 25px auto;
-        grid-gap: 50px;
+        grid-column-gap: 150px;
+        grid-row-gap: 50px;
     }
+
+    .contact_footer1{
+        font-family: Arial Black;
+        color: #BFC1C5;
+
+    }
+
+
+    .contact_footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+
+    }
+
 
         
         
