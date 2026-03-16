@@ -36,14 +36,11 @@
         
     }
 /* gerechten  */
-    .Voorgerechten {
+    .gerecht {
+        border: 2px solid #FF6A3D;
         color: #f8f4f4;
         font-family: arial black;
-        border: 2px solid #FF6A3D;
-        width: 300px;
-        height: 10%;
-        margin-left: 350px;
-        
+
     
     }
 /* simpele lijn tussen de Nav en foto */
@@ -54,20 +51,8 @@
         margin: 10px;
         color: #FF6A3D;
     }
-/* gerechten */
-    .MakiRolls {
-        color: #f8f4f4;
-        font-family: arial black;
-        border: 2px solid #FF6A3D;
-        width: 300px;
-        height: 10%;
-        margin-left: 350px;
-        
-        
-        
- }
 
-/* quote text boven Afbeelding */
+    /* quote text boven Afbeelding */
      h2{
         color:#BFC1C5;
         display: flex;
@@ -75,19 +60,20 @@
         font-family: Arial Black;
     }
 
-      .Sashimi {
-        color: #f8f4f4;
-        font-family: arial black;
-        border: 2px solid #FF6A3D;
-        width: 300px;
-        height: 10%;
-        margin-left: 350px;
-        
 
-    }
-
-    .menu {
-        display: grid;
+    .menu{
+        display: grid; 
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;  
+        width: 60%; 
+        margin: 25px auto;
+        grid-gap: 50px;
     }
-}
+
+        
+        
+        
+ }
+
+
+
