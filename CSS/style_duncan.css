@@ -1,4 +1,6 @@
-
+nav{
+    display: none;
+}
 
 
 @media (min-width: 576px)  and (max-width: 991px) {
@@ -23,6 +25,11 @@
 }
 
 @media(min-width: 992px) {
+
+    nav{
+        display: block;
+    }
+
     body {
         background-color: #232C4A;   
     }
@@ -173,5 +180,87 @@
         margin-left: 200px;
         
     }
+
+    .Sushi1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 230px;
+        
+    
+    }
+
+    .california{
+        width: 27vw;
+        height: 30vh;
+       
+    }
+
+    .crispy_chicken{
+        width: 27vw;
+        height: 30vh;
+    }
+
+    .Sushi2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-left: 300px;
+        margin-right: 330px;        
+    }
+
+    .dragon{
+        width: 20vw;
+        height: 30vh;
+    }
+
+    .tempura{
+        width: 20vw;
+        height: 30vh;
+    }
+
+    .line5{
+        width: 100%;
+        height: 2px;
+        background-color: #FF6A3D;
+        margin-top: 15vh;
+        color: #FF6A3D;
+    }
+
+
+
+    .contact_footer1{
+        font-family: Arial Black;
+        color: #BFC1C5;
+
+    }
+
+    .contact_footer2{
+        font-family: Arial Black;
+        color: #BFC1C5;
+
+    }
+
+    .contact_footer{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+
+    }
+
+
+
+    
+
+
+
+    
+
+
+
+
 
 }
