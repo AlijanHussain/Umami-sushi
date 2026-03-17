@@ -245,5 +245,56 @@ body {
 
     }
 
+    /* dit is voor de reserveer pagina  */
+
+    .welkom{
+        font-family: Arial Black;
+        color: #BFC1C5;
+        background-color: #FF6A3D;
+        width: 25vw;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        
+
+    }
+
+    .reserveren{
+        font-family: Arial Black;
+        color: #BFC1C5;
+        border: 2px solid #FF6A3D;
+        margin-top: 20px;
+        width: 25vw;
+        height: 45vh;
+        margin-left: 40px;
+
+
+    }
+
+    .knop_reserveer{
+        font-family: Arial Black;
+        color: #BFC1C5;
+        border: none;
+        cursor: pointer;
+        background-color:#232C4A ;
+        border: 2px solid #FF6A3D;
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 25vw;
+        height: 30vh;
+    }
+
+    .reserveer_functie{
+        font-family: Arial Black;
+        color: #BFC1C5;
+        background-color:#232C4A ;
+        border: 2px solid #FF6A3D;
+        margin-top: 20px;
+
+
+    }
+
 
 }
