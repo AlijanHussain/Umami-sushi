@@ -45,7 +45,7 @@
     }
 /* simpele lijn tussen de Nav en foto */
     .line1 {
-        width: 100%;
+        width: 99%;
         height: 2px;
         background-color: #FF6A3D;
         margin: 10px;
