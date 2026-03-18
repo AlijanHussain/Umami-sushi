@@ -93,6 +93,7 @@
         font-family: arial black;
         width: max-content;
         padding: 8px 160px;
+        margin-left: 20px;
         
         
        
@@ -112,35 +113,54 @@
         color: #f8f4f4;
         font-family: arial black;
         width: fit-content;
-        padding: 15px 120px;
+        /* padding: 15px 120px; */
         margin-top: 20px;
+        margin-left: 20px;
+        width: 40vw;
 
     
     }
 
-      .TelefoonNummer {
-        background-color: #FF6A3D;
-        border: 2px solid #FF6A3D;
+     h5{
+        color: white;
         font-family: arial black;
-        width: max-content;
-        padding: 4px 200px;
-        margin-top: 20px;
-        
-        
-       
-
-    
+        width: fit-content;
+        font-size: large;
     }
 
-    
+
+     .h1{
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;  
+        width: 35%; 
+        margin: 25px auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 1px;
+        color: white;
+        border: 2px solid #FF6A3D;
+        margin-left: 20px;
+        font-family: arial;
+        padding: 1px 45px;
+        width: 20vw;
+        margin-top: 20px;
+        font-size: smaller;
+    } 
+
+
+    }
+
+ 
 
     
 
+    
+
 
         
         
         
- }
+ 
 
 
 
