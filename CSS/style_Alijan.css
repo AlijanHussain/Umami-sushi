@@ -102,7 +102,7 @@
     }
 
      h3{
-        color: black;
+        color: #BFC1C5;
         display: flex;
         justify-content: center;
         font-family: arial;
@@ -129,25 +129,36 @@
     }
 
 
-     .h1{
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;  
-        width: 35%; 
-        margin: 25px auto;
-        grid-column-gap: 15px;
-        grid-row-gap: 1px;
-        color: white;
-        border: 2px solid #FF6A3D;
-        margin-left: 20px;
-        font-family: arial;
-        padding: 1px 45px;
-        width: 20vw;
-        margin-top: 20px;
-        font-size: smaller;
-    } 
+
+.dagen-container {
+    display: flex;         
+    justify-content: center; 
+    gap: 20px;           
+    width: 100%;
+    margin: 40px auto;     
+}
 
 
+.dag-kolom {
+    display: flex;        
+    flex-direction: column; 
+    gap: 15px;           
+    flex: 1;              
+    min-width: 150px;     
+}
+
+
+.dag {
+    border: 2px solid #FF6A3D;
+    color: #BFC1C5;            
+    padding: 10px;
+    font-family: Arial Black; 
+    text-align: left;
+}
+ 
+
+
+     
     }
 
  
