@@ -11,10 +11,14 @@
     }
 
     header {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
         display: flex;
         align-items: center;
         padding: 20px;
         font-family: arial black;
+        background-color: #232C4A;
     }
 /* dit is de logo van Umami Sushi rechts boven */
     .logo {
