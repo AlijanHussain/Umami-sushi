@@ -1,73 +1,14 @@
-nav{
-    display: none;
-}
 
 body {
     background-color: #232C4A;   
 }
- .logo{
-    display: none;
- }
 
- .sushi{
-    display: none;
- }
-
- .algemeen{
-    display: none;
- }
-
- .openingstijden{
-    display: none;
- }
-
- .opening{
-    display: none;
- }
-
- footer{
-    display: none;
- }
-
- .salmon{
-    display: none;
- }
-
-.Sushi1{
+.beschrijving,  .sushi, .algemeen, .openingstijden, .opening, .salmon, .Sushi1, .Sushi2, .line1, .line2, .line3, .line4, .line5, .kwote, .title, .adres  {
     display: none;
 }
 
-.Sushi2{
-    display: none;
-}
-
-.line1{
-    display: none;
-}
-.line2{
-    display: none;
-}
-.line3{
-    display: none;
-}
-.line4{
-    display: none;
-}
-.line5{
-    display: none;
-}
-.kwote{
-    display: none;
-}
-.title{
-    display: none;
-}
-.adres{
-    display: none;
-}
-
-.logo2{
-    width: 30vw;
+.logo{
+    width: 35%;
     height: auto;
 }
 
@@ -77,6 +18,7 @@ body {
     background-color: #FF6A3D;
     margin: 1px;
     color: #FF6A3D;
+    margin-top: 2vh;
 }
 
 .sushiTL1{
@@ -93,9 +35,19 @@ body {
     height: 6vh;
     text-align: center;
     border: none;
-    cursor: pointer;
-    margin-top: 20px;
+
+
 }
+
+.algemeenTL{
+    display: flex;
+    flex-direction: column;
+    height:50px;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5vh;
+}
+
 
 .telefoonTL{
     color: #BFC1C5;
@@ -105,14 +57,17 @@ body {
     height: 6vh;
     text-align: center;
     border: none;
-    cursor: pointer;
+    margin-top: 1vh;
+
 }
 
 .titleTL{
     color:#BFC1C5;
     font-family: Arial Black; 
 
+
 }
+
 
 .rijtje_sushi{
     width: 70vw;
@@ -133,6 +88,142 @@ body {
 
 }
 
+.welkom{
+    font-family: Arial Black;
+    color: #BFC1C5;
+    background-color: #FF6A3D;
+    text-align: center;
+    height:5vh;
+    font-size: medium;
+    margin: 3vw;
+    width: 81vw;
+    border: 2px solid #FF6A3D;
+}
+
+.reserveren{
+    font-family: Arial Black;
+    color: #BFC1C5;
+    border: 2px solid #FF6A3D;
+    height: 65vh;
+    width: 81vw;
+    margin-left: 3vw;
+}
+
+
+
+.reserveer_functie{
+    font-family: Arial Black;
+    color: #BFC1C5;
+    background-color:#232C4A ;
+    border: 2px solid #FF6A3D;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    }
+
+.knop_reserveer{
+    font-family: Arial Black;
+    color: #BFC1C5;
+    background-color:#232C4A ;
+    border: 2px solid #FF6A3D;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    width: 50vw;
+    height: 9vh;
+}
+
+
+
+
+.vacatures{
+    font-family: Arial Black;
+    color: #BFC1C5;
+    background-color:#232C4A ;
+    border: 2px solid #FF6A3D;
+    margin-top: 20px;
+    width: 85vw;
+    height: 50vh;
+    margin-left: 3vw;
+}
+
+.chef_img{
+    width: 55vw;
+    height: 25vh;
+    margin-top: 20px;
+    margin-left: 3vw;
+    border: 2px solid #FF6A3D;
+}
+
+.chef{
+    font-family: Arial Black;
+    color: #BFC1C5;
+    background-color:#232C4A ;
+    border: 2px solid #FF6A3D;
+    width: 37vw;
+    height: 5vh;
+    margin-left: 1vw;
+}
+
+.uitleg1{
+    position: relative;
+    font-family: Arial Black;
+    color: #BFC1C5;
+    background-color:#232C4A ;
+    border: 2px solid #FF6A3D;
+    width: 32vw;
+    height: 4vh;
+    margin-left: 47vw;
+    margin-top: -6vh;
+    }  
+
+.reageren{
+    font-family: Arial Black;
+    color: #BFC1C5;
+    background-color:#232C4A ;
+    border: 2px solid #FF6A3D;
+    margin-top: 2vh;
+    margin-left: 58vw;
+    width: 25vw;
+    height: 4vh;
+}
+
+.hamburger{
+
+    color: #BFC1C5;
+    font-size: 30px;
+    text-align: right;
+    width: 65%;
+}
+
+header{
+    display: flex;
+}
+
+  .nav_links {
+    position: absolute;
+    flex-direction: column;
+    top: 60px;
+    right: 0;
+    background: #232C4A;
+    border: 2px solid #FF6A3D;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .nav_links a, .nav_links a:visited{
+    text-align: center;
+    color: #BFC1C5;
+    text-decoration: none;
+    
+  }
+  .active{
+       display: flex;
+  }
+
+  
+
+
+
 
 
 
@@ -140,8 +231,10 @@ body {
 @media (min-width: 576px)  and (max-width: 991px) {
 
     header {
+
         flex-direction: column;
         align-items: flex-start;
+        
     }
 
     .logo {
@@ -158,98 +251,45 @@ body {
 
 @media(min-width: 992px) {
 
-
-
-    .logo2{
-        display: none;
+    .reserverenTL{
+        width: 25vw;
+        height: 7vh;
+        cursor: pointer;
+        margin-left: 10vw;
+        font-size: large;
     }
+
     .Footer_TL{
-        display: none;
+        margin-left:20vw;
+        margin-right: 20vw;
+        font-size: large;
     }
+
+    .telefoonTL{
+        width: 25vw;
+        height: 7vh;
+        margin-right: 10vw;
+        font-size: large;
+    }
+
     .titleTL{
-        display: none;
+        margin-bottom: -10vh;
+        font-size: large;
     }
+
     .algemeenTL{
+        flex-direction: row;
+        margin-top: 5vh;
+    }
+
+    .rijtje_sushi, .sushiTL1, .line1TL, .hamburger  {
         display: none;
     }
-    .rijtje_sushi{
-        display: none;
-    }
 
-    .sushiTL1{
-        display: none;
-    }
-
-    .line1TL{
-        display: none;
-    }
-    nav{
+    .nav_links, nav,.vacaturen, .beschrijving,  .reserveren,  .logo, .sushi, .algemeen, .openingstijden, .opening, footer, .salmon, .Sushi1, .Sushi2, .line1, .line2, .line3, .line4, .line5,
+    .kwote, .title, .adres {
         display: block;
     }
-
-    .logo{
-        display: block;
-    }
-
-    .sushi{
-        display: block;
-    }
-
-    .algemeen{
-        display: block;
-    }
-
-    .openingstijden{
-        display: block;
-    }
-
-    .opening{
-        display: block;
-    }
-
-    footer{
-        display: block;
-    }
-
-    .salmon{
-        display: block;
-    }
-
-    .Sushi1{
-        display: block;
-    }
-
-    .Sushi2{
-        display: block;
-    }
-
-    .line1{
-        display: block;
-    }
-    .line2{
-        display: block;
-    }
-    .line3{
-        display: block;
-    }
-    .line4{
-        display: block;
-    }
-    .line5{
-        display: block;
-    }
-    .kwote{
-        display: block;
-    }
-    .title{
-        display: block;
-    }
-    .adres{
-        display: block;
-    }
-    
-
-
 
     header{
         position: sticky;
@@ -273,6 +313,12 @@ body {
         border: 2px solid #FF6A3D;
         padding: 10px 60px;
         margin-left: 20px;
+    }
+    .nav_links {
+        background-color: #232C4A;
+        margin-left: 20px;
+        width: 85%;
+
     } 
 
     .line1{
@@ -300,14 +346,13 @@ body {
         height: 2px;
         background-color: #FF6A3D;
         margin: 1px;
-        margin-top: 15px;
+        margin-top: 5vh;
         color: #FF6A3D;
     }
 
     .title{
         color:#BFC1C5;
         font-family: Arial Black; 
-
     }
 
 
@@ -329,10 +374,12 @@ body {
     .openingstijden{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        font-family: Arial Black; 
+        color: #BFC1C5;
     }
 
     .openingstijden>h3{
-        color: #ffffff;
+        color: #BFC1C5;
         border: 2px solid #FF6A3D;
         padding: 10px 20px;
         font-size: 16px;
@@ -347,13 +394,12 @@ body {
 
     .opening>h3{
         border: 2px solid #FF6A3D;
-        color: #ffffff;
+        color: #BFC1C5;
         padding: 10px 20px;
         font-size: 16px;
         width: 15vw;
         font-family: Arial Black;     
     }
-
 
 
     /* dit is voor de reserveer en telefoon knop op de landding pagina */
@@ -367,7 +413,6 @@ body {
         text-align: center;
         border: none;
         cursor: pointer;
-
     }
 
     .telefoon{
@@ -376,15 +421,8 @@ body {
         font-family: Arial Black;
         width: 30vw;
         height: 6vh;
-
-
     }
 
-    .algemeen{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
 
     .line4{
         width: 100%;
@@ -392,6 +430,7 @@ body {
         background-color: #FF6A3D;
         margin: 1px;
         color: #FF6A3D;
+        margin-top: 2vh;
     }
 
     /* dit is voor de foto's van de sushi's op de landding pagina */
@@ -401,7 +440,6 @@ body {
         height: 39vh;
         margin-top: 10px;
         margin-left: 200px;
-        
     }
 
     .Sushi1{
@@ -410,14 +448,11 @@ body {
         margin-top: 30px;
         margin-left: 200px;
         margin-right: 230px;
-        
-    
     }
 
     .california{
         width: 27vw;
-        height: 30vh;
-       
+        height: 30vh;  
     }
 
     .crispy_chicken{
@@ -451,12 +486,9 @@ body {
         color: #FF6A3D;
     }
 
-
-
     .contact_footer1{
         font-family: Arial Black;
         color: #BFC1C5;
-
     }
 
     .contact_footer{
@@ -465,57 +497,36 @@ body {
         margin-top: 20px;
         margin-left: 200px;
         margin-right: 200px;
-
     }
 
     /* dit is voor de reserveer pagina  */
 
     .welkom{
-        font-family: Arial Black;
-        color: #BFC1C5;
-        background-color: #FF6A3D;
         width: 25vw;
         height: 6vh;
         margin-left: 40px;
-        
-
+        font-size: large;
     }
 
     .reserveren{
-        font-family: Arial Black;
-        color: #BFC1C5;
-        border: 2px solid #FF6A3D;
         margin-top: 20px;
-        width: 27vw;
-        height: 45vh;
+        width: 30vw;
+        height: 50vh;
         margin-left: 40px;
-
-
-
     }
 
     .knop_reserveer{
-        font-family: Arial Black;
-        color: #BFC1C5;
-        border: none;
         cursor: pointer;
-        background-color:#232C4A ;
-        border: 2px solid #FF6A3D;
         margin-top: 35px;
         margin-left: 40px;
         width: 13vw;
         height: 6vh;
     }
 
+
     .reserveer_functie{
-        font-family: Arial Black;
-        color: #BFC1C5;
-        background-color:#232C4A ;
-        border: 2px solid #FF6A3D;
         margin-top: 20px;
-       width: 15vw;
-
-
+        width: 15vw;
     }
 
     .beschrijving{
@@ -530,7 +541,6 @@ body {
         display: flex;
         padding: 20px;
         text-shadow: 0 2px 3px #FF6A3D
-
     }
 
     .vacatures{
@@ -545,28 +555,15 @@ body {
     }
 
     .chef{
-        font-family: Arial Black;
-        color: #BFC1C5;
-        background-color:#232C4A ;
-        border: 2px solid #FF6A3D;
         width: 9vw;
-        height: 5vh;
-        margin-left: 1vw;
-
     }
 
     .uitleg1{
-        position: relative;
-        font-family: Arial Black;
-        color: #BFC1C5;
-        background-color:#232C4A ;
-        border: 2px solid #FF6A3D;
         width: 7vw;
         height: 3vh;
         margin-left: 15vw;
-        margin-top: -6vh;
-    }    
-
+    }
+  
     .vacaturen{
         display: flex;
         justify-content: center;
@@ -574,19 +571,11 @@ body {
 
     .chef_img{
         width: 15vw;
-        height: 25vh;
-        margin-top: 20px;
         margin-left: 2.5vw;
-        border: 2px solid #FF6A3D;
     }
 
     .reageren{
-        font-family: Arial Black;
-        color: #BFC1C5;
-        border: none;
         cursor: pointer;
-        background-color:#232C4A ;
-        border: 2px solid #FF6A3D;
         margin-top: 15px;
         margin-left: 15vw;
         width: 6vw;
