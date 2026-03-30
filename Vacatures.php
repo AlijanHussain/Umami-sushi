@@ -9,21 +9,14 @@
     <meta name="author" content="Duncan">
     <title>Umami Sushi</title>
     <link rel="stylesheet" href="CSS/style_duncan.css">
+    <script src="JS/javascript.js " defer></script>
 </head>
 <body>
-    <header>
-        <img src="img/logo_umami_sushi_1.png" alt="Umami Sushi Logo" class="logo">
-        <nav>
-            <ul class="nav_links">
-                <a href="index.html">Home</a>
-                <a href="Lunch.html">Menu</a>
-                <a href="Contacten.html">Contacten</a>
-                <a href="reserveren.html">Reserveren</a>
-                <a href="Vacatures.html">Vacatures</a>
-            </ul>
-        </nav>
+  <?php
+  include "header.php";
 
-    </header>
+  ?>
+
 
     <hr class="line1">
     <main>
@@ -50,21 +43,10 @@
                 <button class="reageren">reageren</button>
            </article>
         </article>
+    <hr class="line4">  
     </main>
-    <footer>
-        <hr class="line5">
+  <?php
+  include "footer.php";
 
-      <article class="contact_footer">
-        <article class="contact_footer1">
-            <h3>Umami Sushi</h3>
-            <p>Galgenwater 12, 2311VZ, Leiden</p>
-        </article>
-
-        
-        <article class="contact_footer1">
-            <h3>088-2324456</h3>
-            <p>Info@umamileiden.nl</p>
-      </article>
-    </article>
-    </footer>
+  ?>
 
