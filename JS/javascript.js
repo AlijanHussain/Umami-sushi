@@ -18,6 +18,7 @@ let bijzonder;
 
 
 document.getElementById("knopReserveer").onclick=function(){
+
     username = document.getElementById("namen").value;
     email = document.getElementById("email").value;
     telefoon = document.getElementById("phone").value;
@@ -25,6 +26,8 @@ document.getElementById("knopReserveer").onclick=function(){
     tijd = document.getElementById("tijd").value;
     soort = document.getElementById("soort").value;
     bijzonder = document.getElementById("bijzonder").value;
+
+    alert("Fijn dat je bij ons hebt besteld " + username  + " om " + tijd  + " we hopen je dan te zien! " );
 
     document.getElementById("namen").value = "";
     document.getElementById("email").value = "";
@@ -41,6 +44,8 @@ document.getElementById("knopReserveer").onclick=function(){
     console.log(tijd);
     console.log(soort);
     console.log(bijzonder);
+
+    
 }
 
 

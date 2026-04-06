@@ -19,7 +19,7 @@
 
 
 
-    <hr class="line1TL">
+    <hr class="line2TL">
     <hr class="line1">
 
     <main>
@@ -33,7 +33,7 @@
         <hr class="line2">
 
         <article class="algemeenTL">
-            <button onclick="document.location='reserveren.html'" class="reserverenTL">Reserveren</button>
+            <button onclick="document.location='reserveren.php'" class="reserverenTL">Reserveren</button>
             <button class="telefoonTL">088-2324456</button>
         </article>
 
@@ -44,39 +44,50 @@
             <h4> Galgenwater 12, 2311VZ, Leiden</h4>
         </article>
 
-\
+
 
         <img src="img/rijtje_Sushi.png" alt="rijtje sushi" class="rijtje_sushi">
 
-        <hr class="line1TL">
 
         <!-- dit is voor de desktop -->
 
 
       <hr class="line3">
-      <article class="opening">
+      <hr class="line3TL">
 
-        <h3>Maandag: 14:00 - 22:00</h3>
-        <h3>Donderdag: 14:00 - 22:00</h3>
-        <h3>Zondag: 14:00 - 21:00</h3>
-        
-      </article>
 
-      <article class="openingstijden">
 
-        <h3>Woensdag: 14:00 - 22:00</h3>
-        <h3>Vrijdag: 14:00 - 22:00</h3>
+<article class="dagen-container">
+    <article class="dag-kolom">
+        <p class="dag">Maandag:</p>
+        <p class="dag">Dinsdag:</p>
+        <p class="dag">Woensdag:</p>
+    </article>
 
-      </article>
+    <article class="dag-kolom">
+        <p class="dag">Donderdag:</p>
+        <p class="dag">Vrijdag:</p>
+        <p class="dag">Zaterdag:</p>
+    </article>
 
-      <article class="openingstijden">
+    <article class="dag-kolom">
+        <p class="dag">Zondag:</p>
+    </article>
+</article>
 
-        <h3>Dinsdag: 14:00 - 22:00</h3>
-        <h3>Zaterdag: 14:00 - 21:00</h3>
-
-      </article>
 
       <hr class="line4">
+
+      <img src="img/rijtje_Sushi.png" alt="rijtje sushi" class="rijtje_sushi2">
+      <article class="foto_container1">
+        <img src="img/Schermafbeelding 2026-03-24 172303.png" alt="foto van sushi" class="sushiTL2">
+        <img src="img/ingang.png" alt="ingang van de winkel" class="ingang_winkel">
+      </article>
+      
+      <article class="foto_container2">
+        <img src="img/kok.png" alt="foto van de kok" class="kok">
+        <img src="img/bordje_met_sushi.png" alt="bordje met sushi" class="bordje_met_sushi">
+      </article>
 
       <img src="img/Schermafbeelding 2026-03-25 091756.png" alt="foto van salmon sushi" class="salmon">
 
@@ -94,6 +105,7 @@
 
       </article>
 
+      <hr class="line2TL">
       <hr class="line4">
     </main>
   <?php

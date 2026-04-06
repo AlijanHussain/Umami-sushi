@@ -3,7 +3,7 @@ body {
     background-color: #232C4A;   
 }
 
-.beschrijving,  .sushi, .algemeen, .openingstijden, .opening, .salmon, .Sushi1, .Sushi2, .line1, .line2, .line3, .line4, .line5, .kwote, .title, .adres  {
+.beschrijving,  .line3TL, .dagen-container, .kok, .bordje_met_sushi, .ingang_winkel, .sushiTL2, .rijtje_sushi2, .sushiplankje,  .sushi, .algemeen, .openingstijden, .opening, .salmon, .Sushi1, .Sushi2, .line1, .line2, .line3, .line4, .line5, .kwote, .title, .adres  {
     display: none;
 }
 
@@ -12,7 +12,7 @@ body {
     height: auto;
 }
 
-.line1TL{
+.line2TL{
     width: 100%;
     height: 2px;
     background-color: #FF6A3D;
@@ -35,8 +35,6 @@ body {
     height: 6vh;
     text-align: center;
     border: none;
-
-
 }
 
 .algemeenTL{
@@ -58,14 +56,11 @@ body {
     text-align: center;
     border: none;
     margin-top: 1vh;
-
 }
 
 .titleTL{
     color:#BFC1C5;
     font-family: Arial Black; 
-
-
 }
 
 
@@ -74,7 +69,6 @@ body {
     height: 30vh;
     margin-left: 12vw;
     margin-bottom: 1vh;
-
 }
 
 .Footer_TL{
@@ -85,7 +79,6 @@ body {
     margin-right: 2vw;
     color:#BFC1C5;
     font-family: Arial Black; 
-
 }
 
 .welkom{
@@ -104,12 +97,10 @@ body {
     font-family: Arial Black;
     color: #BFC1C5;
     border: 2px solid #FF6A3D;
-    height: 65vh;
+    height: 58vh;
     width: 81vw;
     margin-left: 3vw;
 }
-
-
 
 .reserveer_functie{
     font-family: Arial Black;
@@ -118,7 +109,7 @@ body {
     border: 2px solid #FF6A3D;
     margin-top: 2vh;
     margin-left: 2vw;
-    }
+}
 
 .knop_reserveer{
     font-family: Arial Black;
@@ -131,9 +122,6 @@ body {
     height: 9vh;
 }
 
-
-
-
 .vacatures{
     font-family: Arial Black;
     color: #BFC1C5;
@@ -141,7 +129,7 @@ body {
     border: 2px solid #FF6A3D;
     margin-top: 20px;
     width: 85vw;
-    height: 50vh;
+    height: 54vh;
     margin-left: 3vw;
 }
 
@@ -159,7 +147,7 @@ body {
     background-color:#232C4A ;
     border: 2px solid #FF6A3D;
     width: 37vw;
-    height: 5vh;
+    height: 6vh;
     margin-left: 1vw;
 }
 
@@ -173,7 +161,7 @@ body {
     height: 4vh;
     margin-left: 47vw;
     margin-top: -6vh;
-    }  
+}  
 
 .reageren{
     font-family: Arial Black;
@@ -183,11 +171,10 @@ body {
     margin-top: 2vh;
     margin-left: 58vw;
     width: 25vw;
-    height: 4vh;
+    height: 6vh;
 }
 
 .hamburger{
-
     color: #BFC1C5;
     font-size: 30px;
     text-align: right;
@@ -198,7 +185,7 @@ header{
     display: flex;
 }
 
-  .nav_links {
+.nav_links {
     position: absolute;
     flex-direction: column;
     top: 60px;
@@ -207,17 +194,17 @@ header{
     flex-direction: column;
     width: 100%;
     display: none;
-  }
+}
 
-  .nav_links a, .nav_links a:visited{
+.nav_links a, .nav_links a:visited{
     text-align: center;
     color: #BFC1C5;
-    text-decoration: none;
-    
-  }
-  .active{
-       display: flex;
-  }
+    text-decoration: none;   
+}
+
+.active{
+    display: flex;
+}
 
   
 
@@ -229,16 +216,59 @@ header{
 
 @media (min-width: 576px)  and (max-width: 991px) {
 
-    header {
-
-        flex-direction: column;
-        align-items: flex-start;
-        
+    .sushiTL1, .rijtje_sushi,  .titleTL, .line4{
+        display: none;
     }
 
-    .logo {
-        width: 20vw;
-        margin-bottom: 20px;
+    .opening, .dagen-container,  .line3TL, .ingang_winkel, .bordje_met_sushi, .kok, .sushiTL2, .rijtje_sushi2, .openingstijden, .line2TL, .line1TL, .sushiplankje, .chef, h4{
+        display: block;
+    }
+
+
+
+    .reserverenTL{
+        color: #BFC1C5;
+        background-color: #FF6A3D;
+        font-family: Arial Black;
+        width: 40vw;
+        height: 10vh;
+    }
+
+    .telefoonTL{
+        color: #BFC1C5;
+        background-color: #FF6A3D;
+        font-family: Arial Black;
+        width: 40vw;
+        height: 10vh;
+        margin-top: 1vh;
+    }
+
+    .logo{
+        width: 23%;
+        height: auto;
+    }
+
+    .line3TL{
+        width: 100%;
+        height: 2px;
+        background-color: #FF6A3D;
+        margin: 1px;
+        color: #FF6A3D;
+        margin-top: 2vh;
+    }
+
+    .alle_openigs_tijden{
+        color:#BFC1C5;
+        font-family: Arial Black; 
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+
+
+    }
+
+    .alle_openigs_tijden h3{
+        border: 2px solid #FF6A3D;
+        width: 45%;
     }
 
     nav>ul>a {
@@ -246,7 +276,143 @@ header{
         margin-left: 0;
         margin-bottom: 10px;
     }
+
+    .reserveren {
+        width: 45vw;
+        height: 62vh;
+    }
+
+    .welkom {
+        width: 45vw;
+    }
+
+    .knop_reserveer {
+        width: 25vw;
+    }
+
+    .line4{
+        width: 100%;
+        height: 2px;
+        background-color: #FF6A3D;
+        margin: 1px;
+        color: #FF6A3D;
+        margin-top: 2vh;
+    }
+
+    .sushiplankje{
+        display: block;
+        margin: auto;
+        width: 65vw;
+        height: 40vh;
+        margin-top: 2vh;
+    }
+
+    .vacatures {
+        width: 40vw;
+        height: 54vh;
+        display: block;
+        margin: auto;
+        margin-top: 2vh;
+    }
+
+    .chef_img {
+        width: 27vw;
+    }
+
+    .uitleg1 {
+        font-size: small;
+        width: 18vw;
+        height: 5vh;
+        margin-left: 20vw;
+    }
+
+    .reageren {
+        margin-left: 25vw;
+        width: 14vw;
+        height: 5vh;
+    }
+
+    .chef {
+        font-size: medium;
+        width: 15vw;
+        height: 5vh;
+    }
+
+    .extra_vactuur{
+        display: flex;
+    }
+
+    .dagen-container {
+        display: flex;         
+        justify-content: center; 
+        gap: 20px;           
+        width: 100%;
+        margin: 40px auto;     
+    }
+
+
+    .dag-kolom {
+        display: flex;        
+        flex-direction: column;   
+        flex: 1;              
+        min-width: 150px;     
+    }
+
+
+    .dag {
+        border: 2px solid #FF6A3D;
+        color: #BFC1C5;            
+        padding: 10px;
+        font-family: Arial Black; 
+        text-align: left;
+    }
+
+    .rijtje_sushi2{
+        width: 65vw;
+        height: 45vh;
+        margin: auto;
+    }
+
+    .hamburger{
+        text-align: right;
+        width: 77%;
+    }
+
+    .sushiTL2{ 
+        width: 45%;
+        height: 40vh;
+        margin-top: 1vh;
+    }
+
+    .ingang_winkel{ 
+        width: 45%;
+        height: 40vh;
+        margin-top: 1vh;
+    }
+
+    .kok{ 
+        width: 45%;
+        height: 40vh;
+        margin-top: 1vh;
+    }
+
+    .bordje_met_sushi{ 
+        width: 45%;
+        height: 40vh;
+        margin-top: 1vh;
+    }
+
+    .foto_container1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foto_container2{
+        display: flex;
+        justify-content: space-between;
+    }
 }
+
 
 @media(min-width: 992px) {
 
@@ -281,11 +447,11 @@ header{
         margin-top: 5vh;
     }
 
-    .rijtje_sushi, .sushiTL1, .line1TL, .hamburger  {
+    .rijtje_sushi, .line2TL, .sushiTL1, .line1TL, .hamburger, .sushiplankje  {
         display: none;
     }
 
-    .nav_links, nav,.vacaturen, .beschrijving,  .reserveren,  .logo, .sushi, .algemeen, .openingstijden, .opening, footer, .salmon, .Sushi1, .Sushi2, .line1, .line2, .line3, .line4, .line5,
+    .nav_links, nav,.vacaturen, .dagen-container, .beschrijving,  .reserveren,  .logo, .sushi, .algemeen, .openingstijden, .opening, footer, .salmon, .Sushi1, .Sushi2, .line1, .line2, .line3, .line4, .line5,
     .kwote, .title, .adres {
         display: block;
     }
@@ -313,6 +479,7 @@ header{
         padding: 10px 60px;
         margin-left: 20px;
     }
+
     .nav_links {
         background-color: #232C4A;
         margin-left: 20px;
@@ -354,11 +521,11 @@ header{
         font-family: Arial Black; 
     }
 
-
     .adres{
         color:#BFC1C5;
         font-family: Arial Black;
     }
+    
     .line3{
         width: 100%;
         height: 2px;
@@ -553,6 +720,10 @@ header{
         margin-left: 40px;
     }
 
+    .extra_vactuur{
+        display: flex;
+    }
+
     .chef{
         width: 9vw;
     }
@@ -583,6 +754,29 @@ header{
 
     .test{
         background-color: #232C4A;
+    }
+
+    .dagen-container {
+        display: flex;         
+        justify-content: center; 
+        gap: 20px;           
+        width: 100%;
+        margin: 40px auto;     
+    }
+
+    .dag-kolom {
+        display: flex;        
+        flex-direction: column;         
+        flex: 1;              
+        min-width: 150px;     
+    }
+
+    .dag {
+        border: 2px solid #FF6A3D;
+        color: #BFC1C5;            
+        padding: 10px;
+        font-family: Arial Black; 
+        text-align: left;
     }
 
 }

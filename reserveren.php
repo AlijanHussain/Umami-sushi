@@ -16,7 +16,8 @@
   include "header.php";
 
   ?>
-
+  
+    <hr class="line2TL">
     <hr class="line1">
 
     <main>
@@ -62,9 +63,12 @@
 
     <button type="button" id="knopReserveer" class="knop_reserveer"><h3>Reserveren Nu!</h3></button>
 
-    <p id="message"></p>
+    <img src="img/plankje_sushi.png" alt="Sushi" class="sushiplankje">
+
+
           
     <hr class="line4">  
+    <hr class="line2TL">
     </main>
 
   <?php

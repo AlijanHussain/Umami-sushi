@@ -17,13 +17,14 @@
 
   ?>
 
-
+    <hr class="line2TL">
     <hr class="line1">
     <main>
 
         <h1 class="welkom">Vacatures</h1>
 
-        <article class="vacaturen">
+     <article class="vacaturen">
+      <article class="extra_vactuur">
            <article class="vacatures">
                 <h2 class="chef">Chef</h2>
                 <p class="uitleg1">extra uitleg</p>
@@ -36,14 +37,16 @@
                 <img src="img/ober.png" alt="ober" class="chef_img">
                 <button class="reageren">reageren</button>
            </article>
+      </article>
            <article class="vacatures">
                 <h2 class="chef">Bezorger</h2>
                 <p class="uitleg1">extra uitleg</p>
                 <img src="img/bezorger.png" alt="bezorger" class="chef_img">
                 <button class="reageren">reageren</button>
            </article>
-        </article>
+     </article>
     <hr class="line4">  
+     <hr class="line2TL">
     </main>
   <?php
   include "footer.php";
