@@ -403,7 +403,7 @@ h5{
 /* gerechten  */
     .gerecht {
         border: 2px solid #FF6A3D;
-        color: #f8f4f4;
+        color: #BFC1C5;
         font-family: arial black;
 
     
@@ -491,7 +491,7 @@ h5{
     }
 
      h5{
-        color: white;
+        color: #BFC1C5;
         font-family: arial black;
         width: fit-content;
         font-size: large;
