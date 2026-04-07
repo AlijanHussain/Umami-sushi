@@ -4,8 +4,8 @@
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content=""Ontdek de menukaart van Umami Sushi: van verse nigiri en maki tot luxe signature rolls en warme Japanse gerechten. Bekijk onze specialiteiten en kies je favoriet!"">
+    <meta name="keywords" content=""Restaurant, Sushi restaurant, eten, Sushi, sushi eten, Umami Sushi, Umami restaurant, Umami Sushi leiden,>
     <meta name="author" content="Alijan Hussain">
     <title>Umami Sushi</title>
     <link rel="stylesheet" href="CSS/style_Alijan.css">
