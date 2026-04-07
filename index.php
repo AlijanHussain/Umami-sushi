@@ -59,19 +59,19 @@
 
 <article class="dagen-container">
     <article class="dag-kolom">
-        <p class="dag">Maandag:</p>
-        <p class="dag">Dinsdag:</p>
-        <p class="dag">Woensdag:</p>
+        <p class="dag">Maandag: 11:00 - 22:00</p>
+        <p class="dag">Dinsdag: 11:00 - 22:00</p>
+        <p class="dag">Woensdag: 11:00 - 22:00</p>
     </article>
 
     <article class="dag-kolom">
-        <p class="dag">Donderdag:</p>
-        <p class="dag">Vrijdag:</p>
-        <p class="dag">Zaterdag:</p>
+        <p class="dag">Donderdag: 11:00 - 22:00</p>
+        <p class="dag">Vrijdag: 11:00 - 22:00</p>
+        <p class="dag">Zaterdag: 12:00 - 23:00</p>
     </article>
 
     <article class="dag-kolom">
-        <p class="dag">Zondag:</p>
+        <p class="dag">Zondag: 12:00 - 23:00</p>
     </article>
 </article>
 

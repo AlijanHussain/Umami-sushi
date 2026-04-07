@@ -206,6 +206,14 @@ header{
     display: flex;
 }
 
+.ingang{
+    width: 90vw;
+    height: 40vh;
+    margin-top: 3vh;
+    margin-left: 3vw;
+
+}
+
   
 
 
@@ -216,7 +224,7 @@ header{
 
 @media (min-width: 576px)  and (max-width: 991px) {
 
-    .sushiTL1, .rijtje_sushi,  .titleTL, .line4{
+    .sushiTL1, .ingang, .rijtje_sushi,  .titleTL, .line4{
         display: none;
     }
 
@@ -411,6 +419,8 @@ header{
         display: flex;
         justify-content: space-between;
     }
+
+
 }
 
 
@@ -447,7 +457,7 @@ header{
         margin-top: 5vh;
     }
 
-    .rijtje_sushi, .line2TL, .sushiTL1, .line1TL, .hamburger, .sushiplankje  {
+    .rijtje_sushi, .ingang, .line2TL, .sushiTL1, .line1TL, .hamburger, .sushiplankje  {
         display: none;
     }
 

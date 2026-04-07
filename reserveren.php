@@ -64,6 +64,7 @@
     <button type="button" id="knopReserveer" class="knop_reserveer"><h3>Reserveren Nu!</h3></button>
 
     <img src="img/plankje_sushi.png" alt="Sushi" class="sushiplankje">
+    <img src="img/ingang.png" alt="foto van ingang" class="ingang">
 
 
           

@@ -44,19 +44,19 @@
 
  <div class="dagen-container">
     <div class="dag-kolom">
-        <div class="dag">Maandag:</div>
-        <div class="dag">Dinsdag:</div>
-        <div class="dag">Woensdag:</div>
+        <div class="dag">Maandag: 11:00 - 22:00</div>
+        <div class="dag">Dinsdag: 11:00 - 22:00</div>
+        <div class="dag">Woensdag: 11:00 - 22:00</div>
     </div>
 
     <div class="dag-kolom">
-        <div class="dag">Donderdag:</div>
-        <div class="dag">Vrijdag:</div>
-        <div class="dag">Zaterdag:</div>
+        <div class="dag">Donderdag: 11:00 - 22:00</div>
+        <div class="dag">Vrijdag: 11:00 - 22:00</div>
+        <div class="dag">Zaterdag: 12:00 - 23:00</div>
     </div>
 
     <div class="dag-kolom">
-        <div class="dag">Zondag:</div>
+        <div class="dag">Zondag: 12:00 - 23:00</div>
     </div>
 </div>
 
