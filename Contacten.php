@@ -12,20 +12,10 @@
     <link rel="stylesheet" href="CSS/style_Alijan.css">
 </head>
 <body>
-    <header>
-        <article>
-            <img src="img/logo_umami_sushi_1.png" alt="Afbeelding logo" class="logo">
-        </article>
-        <nav>
-            <ul class="nav">
-               <a href="index.php">Home</a>
-               <a href="Lunch.html">Menu</a>
-               <a href="Contacten.html">Contacten</a>
-               <a href="reserveren.php">Reserveren</a>
-               <a href="Vacatures.php">Vacatures</a>
-            </ul>
-        </nav>
-    </header>
+    <?php
+  include "header.php";
+
+  ?>
 
 
     <main>
@@ -48,8 +38,7 @@
         </ul>
 
     </article>
-
-    <br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
     <hr class="line1">
 
@@ -72,24 +61,15 @@
 </div>
 
 
+ <img src="img/plankje_sushi.png" alt="sushi" class="sushi">
+
+
     <hr class="line1">
 </main>
-<footer>
-        
+  <?php
+  include "footer.php";
 
-    <article class="contact_footer">
-        <article class="contact_footer1">
-            <h3>Umami Sushi</h3>
-            <p>Galgenwater 12, 2311VZ, Leiden</p>
-        </article>
-
-        <article class="contact_footer1">
-            <h3>088-2324456</h3>
-            <p>Info@umamileiden.nl</p>
-
-        </article>
-    </article>
-</footer>
+  ?>
 
 </body>
 </html>
