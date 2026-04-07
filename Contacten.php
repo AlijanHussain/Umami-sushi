@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content=""Heb je vragen of wil je een tafel reserveren bij Umami Sushi? Bekijk hier onze contactgegevens, openingstijden en locatie. We hopen je snel te zien!"">
+    <meta name="keywords" content=""Restaurant, Sushi restaurant, eten, Sushi, sushi eten, Umami Sushi, Umami restaurant, Umami Sushi leiden,>
+    <meta name="author" content="Alijan Hussain">">
     <meta name="author" content="Alijan">
     <title>Umami Sushi</title>
     <script src="JS/javascript.js" defer></script>

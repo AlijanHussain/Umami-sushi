@@ -27,7 +27,7 @@ body {
     margin: 10px auto;
     grid-column-gap: 20px;  
     /*ruimte tussen de kolommen */ 
-    grid-row-gap: 50px;
+    grid-row-gap: 50px; 
 
 }
 
