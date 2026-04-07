@@ -18,7 +18,7 @@
   ?>
     <main>
     <hr class="line1">
-    <img src="img/Schermafbeelding 2026-03-25 091756.png" alt="foto voor slideshow" class="slideshowfoto">
+    <img src="img/een_bordje_sushi.png" alt="foto voor slideshow" class="slideshowfoto">
 
 <article class= menu>
     <article class="gerecht">

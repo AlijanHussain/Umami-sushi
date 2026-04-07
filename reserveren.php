@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Welkom bij Umami Sushi, het beste sushi restaurant in Leiden. Geniet van verse sushi, een gezellige sfeer en uitstekende service. Reserveer nu voor een onvergetelijke culinaire ervaring!">
+    <meta name="keywords" content="Restaurant, Sushi restaurant, eten, Sushi, sushi eten, Umami Sushi, Umami restaurant, Umami Sushi leiden, vijfde smaak, verse sushi, gezellige sfeer, uitstekende service, reserveren, culinaire ervaring">
     <meta name="author" content="Duncan">
     <title>Umami Sushi</title>
     <script src="JS/javascript.js" defer></script>

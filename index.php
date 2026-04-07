@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="keywords" content="Restaurant, Sushi restaurant, eten, Sushi, sushi eten, Umami Sushi, Umami restaurant, Umami Sushi leiden, ">
+    <meta name="description" content="Welkom bij Umami Sushi, het beste sushi restaurant in Leiden. Geniet van verse sushi, een gezellige sfeer en uitstekende service. Reserveer nu voor een onvergetelijke culinaire ervaring!">
+    <meta name="keywords" content="Restaurant, Sushi restaurant, eten, Sushi, sushi eten, Umami Sushi, Umami restaurant, Umami Sushi leiden, vijfde smaak, verse sushi, gezellige sfeer, uitstekende service, reserveren, culinaire ervaring">
     <meta name="author" content="Duncan Overvliet">
     <title>Umami Sushi</title>
     <link rel="stylesheet" href="CSS/style_duncan.css">
@@ -27,8 +27,8 @@
 
         <h2 class="kwote">“Umami Sushi - Proef de vijfde smaak.”</h2>
 
-        <img src="img/Schermafbeelding 2026-03-25 092339.png" alt="sushi" class="sushi">
-        <img src="img/Schermafbeelding 2026-03-24 172303.png" alt="foto van sushi" class="sushiTL1">
+        <img src="img/verschilllende_sushi_op_een_rijtje.png" alt="sushi" class="sushi">
+        <img src="img/hoopje_sushi.png" alt="foto van sushi" class="sushiTL1">
 
         <hr class="line2">
 
@@ -89,7 +89,7 @@
         <img src="img/bordje_met_sushi.png" alt="bordje met sushi" class="bordje_met_sushi">
       </article>
 
-      <img src="img/Schermafbeelding 2026-03-25 091756.png" alt="foto van salmon sushi" class="salmon">
+      <img src="img/verschilllende_sushi_op_een_rijtje.png" alt="foto van salmon sushi" class="salmon">
 
       <article class="Sushi1">
       
