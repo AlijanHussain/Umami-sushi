@@ -19,11 +19,14 @@ body {
 
 .menu {
     display: grid; 
-    grid-template-columns: 1fr 1fr;   /*  dit zorgt voor 2 gelijke rijen */ */
-    grid-template-rows: 1fr 1fr 1fr 1fr;   /*  dit zorgt voor 4 rijen onder elkaar */ */
+    grid-template-columns: 1fr 1fr;   
+    /*  dit zorgt voor 2 gelijke rijen */ 
+    grid-template-rows: 1fr 1fr 1fr 1fr;  
+     /*  dit zorgt voor 4 rijen onder elkaar */
     width: 100%; 
     margin: 10px auto;
-    grid-column-gap: 20px;  /* ruimte tussen de kolommen */ */
+    grid-column-gap: 20px;  
+    /*ruimte tussen de kolommen */ 
     grid-row-gap: 50px;
 
 }
@@ -134,8 +137,8 @@ h5{
     padding: 10px;
     font-family: Arial Black; 
     text-align: left;
-    width: 250px;          /* Beperkt de breedte */
-    margin: 10px auto;     /* Geeft ruimte tussen de vakjes en centreert ze */
+    width: 250px;          
+    margin: 10px auto;     
     border-radius: 4px;
    
 }
@@ -177,7 +180,6 @@ h5{
 
 .dagen-container {
         display: grid;
-        /* Dit maakt 2 gelijke kolommen: */
         grid-template-columns: 1fr 1fr; 
         gap: 15px;
         width: 90%;
@@ -185,10 +187,9 @@ h5{
     }
 
     .dag {
-        /* Zorg dat de breedte hier op 100% staat zodat hij het grid-vak vult */
         width: 100%; 
         margin: 0; 
-        box-sizing: border-box; /* Zorgt dat padding de box niet breder maakt */
+        box-sizing: border-box; /
     }
 
 .nav {
@@ -323,8 +324,8 @@ h5{
     padding: 10px;
     font-family: Arial Black; 
     text-align: left;
-    width: 250px;          /* Beperkt de breedte */
-    margin: 10px auto;     /* Geeft ruimte tussen de vakjes en centreert ze */
+    width: 250px;          
+    margin: 10px auto;     
     border-radius: 4px;
    
 }
